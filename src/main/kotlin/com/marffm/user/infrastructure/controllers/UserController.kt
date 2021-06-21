@@ -11,6 +11,6 @@ class UserController {
 
     @GetMapping
     fun findUser(): ResponseEntity<String> {
-        return ResponseEntity.ok("Hello World with Actions")
+        return ResponseEntity.ok("Hello World with Actions second runner")
     }
 }
